@@ -1,0 +1,13 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  echo_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: echo "Bulding silly demo"
