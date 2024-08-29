@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  echo_job:
+  build_job:
     runs-on: ubuntu-latest
     steps:
       - name: build
